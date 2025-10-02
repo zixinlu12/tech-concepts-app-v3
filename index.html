@@ -216,43 +216,36 @@
             <h2 class="tech-title"><span class="emoji">☁️</span> Cloud Computing</h2>
             
             <div class="content">
-                <p>Imagine starting a company that needs 100 computers to process data. The old way? Buy 100 computers, rent office space, hire IT staff, install AC units, set up business internet... millions upfront. Worse yet - if you only need all 100 during Black Friday but just 10 the rest of the year, you're bleeding money on 90 idle machines.</p>
+                <p>Starting a company used to mean buying servers (powerful computers that run websites/apps), renting space, hiring IT staff. Millions upfront. Worse - need 100 computers for Black Friday but only 10 normally? You're stuck paying for 90 idle machines year-round.</p>
                 
-                <h3>Enter Cloud Computing:</h3>
-                <p>Amazon, Microsoft, and Google have already built massive data centers with hundreds of thousands of computers. Now you can:</p>
+                <h3>The Cloud Solution:</h3>
+                <p>Amazon, Microsoft, Google built massive data centers (warehouses full of computers). Now you rent what you need, when you need it:</p>
                 <ul>
-                    <li>Rent 100 when you need 100 (pay by the hour)</li>
-                    <li>Scale down to 10 when things are quiet</li>
-                    <li>Burst to 1,000 if you go viral</li>
-                    <li>Let them handle maintenance, cooling, and security</li>
+                    <li>Black Friday? Scale to 100 servers</li>
+                    <li>Normal Tuesday? Back to 10</li>
+                    <li>Go viral? Instantly handle millions</li>
+                    <li>They handle all maintenance</li>
                 </ul>
                 
-                <h3>Real Example:</h3>
-                <p>You launch an app:</p>
-                <ol>
-                    <li><strong>Day 1:</strong> 100 users → 1 server ($20/month)</li>
-                    <li><strong>Goes viral on TikTok:</strong> 100,000 users flood in → auto-scales to 100 servers</li>
-                    <li><strong>Hype dies down:</strong> 1,000 users remain → auto-shrinks to 10 servers</li>
-                    <li><strong>You only pay for what you used</strong></li>
-                </ol>
+                <h3>How It Works:</h3>
+                <p>Your app launches with 100 users on 1 server ($20/month). Goes viral? Auto-scales to handle 100,000 users. Hype dies? Shrinks back down. <strong>Pay only for what you use.</strong></p>
                 
-                <p><strong>Think of it like electricity</strong> - You don't build a power plant for your house. You plug in, use what you need, get a bill. Cloud computing makes computing power work the same way.</p>
+                <p>It's like electricity - you don't build a power plant, you just plug in and pay the bill. Cloud makes computing work the same way.</p>
                 
-                <h3>Three Flavors:</h3>
-                <ul>
-                    <li><strong>IaaS (Infrastructure):</strong> Rent bare computers, install everything yourself. Maximum control.</li>
-                    <li><strong>PaaS (Platform):</strong> Computer with software ready to go. Just add your code.</li>
-                    <li><strong>SaaS (Software):</strong> Finished product. Just login and use (Gmail, Netflix, Dropbox).</li>
-                </ul>
+                <h3>Three Options:</h3>
+                <div class="comparison">
+                    <p><strong>IaaS (Infrastructure as a Service):</strong> Empty computers - you install everything (most control)</p>
+                    <p><strong>PaaS (Platform as a Service):</strong> Computers with software ready (just add code)</p>
+                    <p><strong>SaaS (Software as a Service):</strong> Finished products (Gmail, Netflix)</p>
+                </div>
                 
-                <h3>Why "Cloud"?</h3>
-                <p>Your data isn't on one specific computer - it's spread across many machines in different locations. Like a cloud in the sky, you can see it and use it, but you don't track individual water droplets. Your files might be in Virginia, Oregon, and Dublin simultaneously, but to you it's just "in the cloud."</p>
+                <p><strong>Why "cloud"?</strong> Your data floats across multiple servers like water droplets in a cloud. Doesn't matter where - it just works.</p>
                 
-                <p><strong>You already live in the cloud:</strong> Your Netflix shows, Spotify playlists, Google Docs, Instagram photos - none are actually on your device. They're on servers in data centers, streamed to you on demand.</p>
+                <p><strong>You already use it:</strong> Netflix, Instagram, Gmail, Spotify - nothing's actually stored on your phone. It's all streaming from data centers.</p>
                 
                 <div class="visual-box">
-                    <p>☁️ = 🏢🖥️×100,000</p>
-                    <p>Computing as a utility - like power or water</p>
+                    <p>☁️ = 🏢×100,000 servers</p>
+                    <p>Computing as a utility</p>
                 </div>
             </div>
         </div>
@@ -272,15 +265,15 @@
                     <p><strong>Option B (GPU):</strong> Hire 1,000 regular workers, each handles 10 envelopes. Though each takes 10 seconds per stamp (5× slower), with 1,000 working simultaneously, all 10,000 are done in 100 seconds.</p>
                 </div>
                 
-                <p>That's exactly how GPUs work—thousands of small processors (CUDA cores) working in parallel. Modern GPUs have <span class="key-point">2,000-10,000 cores</span>; CPUs typically have just <span class="key-point">4-32 powerful cores</span>.</p>
+                <p>That's exactly how GPUs work—thousands of small processors working in parallel. Modern GPUs have thousands of these workers (called cores), while CPUs have just a few dozen very smart ones.</p>
                 
                 <h3>Why gaming needs GPUs:</h3>
-                <p>Your 1920×1080 screen has 2 million pixels. At 60 fps, that's <span class="key-point">120 million color calculations per second</span>. Simple calculations, massive quantity—perfect for thousands of GPU cores working simultaneously.</p>
+                <p>Your screen has 2 million pixels. Games update them 60 times per second. That's 120 million calculations every second—perfect for thousands of simple processors working together.</p>
                 
                 <h3>Why AI needs GPUs:</h3>
-                <p>Training AI means adjusting millions of parameters through massive matrix multiplication. GPT has <span class="key-point">175 billion parameters</span>. These calculations can run in parallel—1,000 cores turn 1,000 hours into 1 hour.</p>
+                <p>Training ChatGPT means processing billions of examples. Like having billions of envelopes to stamp—you need that army of workers, not one genius.</p>
                 
-                <p><strong>Remember:</strong> CPU = one genius (complex logic, running programs). GPU = an army (simple but massive tasks: graphics, AI, mining).</p>
+                <p><strong>Remember:</strong> CPU = one genius solving complex problems. GPU = army of workers doing simple tasks together.</p>
                 
                 <div class="visual-box">
                     <p>🧠 vs 👥×1000</p>
@@ -349,64 +342,55 @@
             <h2 class="tech-title"><span class="emoji">🔗</span> Blockchain</h2>
             
             <div class="content">
-                <p>Imagine your bank account balance lives only on the bank's computer. If they get hacked—or worse, if the bank lies—your money could vanish. You're trusting one entity completely.</p>
+                <p>Imagine all your money exists as a number in your bank's computer. If they get hacked, lie, or go bankrupt - your money could vanish. You're trusting them completely.</p>
                 
-                <p><strong>Blockchain's solution: Everyone keeps the ledger.</strong></p>
+                <p><strong>Blockchain's solution: Everyone keeps the records.</strong></p>
                 
                 <h3>How it works (classroom analogy):</h3>
                 <ol>
                     <li>30 students each have identical notebooks</li>
                     <li>Tom announces: "I'm sending $10 to Sarah"</li>
-                    <li>Everyone verifies Tom has $10</li>
-                    <li>All 30 students record it in their notebooks</li>
-                    <li>When a page fills up (a "block"), everyone flips to the next page</li>
-                    <li><strong>Key trick:</strong> The new page includes a "fingerprint" (hash) of the previous page</li>
+                    <li>Everyone checks Tom has $10</li>
+                    <li>All 30 write it down</li>
+                    <li>When a page fills up, they all turn to the next page together</li>
+                    <li><strong>The clever bit:</strong> Each new page references the previous one, creating a chain</li>
                 </ol>
                 
                 <h3>Why it's secure:</h3>
                 <ul>
-                    <li>To cheat, you'd need to convince 16+ students (majority) to alter their copies</li>
-                    <li>Changing page 100 breaks page 101's "fingerprint"</li>
-                    <li>You'd have to rewrite every page after that</li>
-                    <li>While you're doing this, others keep adding new pages</li>
-                    <li>Nearly impossible to catch up</li>
+                    <li>To cheat, you'd need to change 16+ notebooks at once</li>
+                    <li>Changing old records breaks the chain</li>
+                    <li>Everyone would notice immediately</li>
+                    <li>While you're trying, new pages keep getting added</li>
                 </ul>
                 
-                <h3>Bitcoin's implementation:</h3>
+                <h3>Bitcoin's version:</h3>
                 <ul>
-                    <li>No central bank, but everyone trusts the shared ledger</li>
-                    <li>"Mining" = competing to write the next page (solve math puzzle)</li>
-                    <li>Winners get Bitcoin rewards</li>
+                    <li>No bank needed - the shared record IS the truth</li>
+                    <li>"Mining" = competing to write the next page</li>
+                    <li>Winners get paid in Bitcoin</li>
                 </ul>
                 
-                <h3>Characteristics:</h3>
+                <h3>The reality check:</h3>
                 <div class="comparison">
-                    <p>• Decentralized: No single control point</p>
-                    <p>• Transparent: All transactions visible</p>
-                    <p>• Immutable: History can't be rewritten</p>
-                    <p>• Pseudonymous: Transactions are public, identities aren't</p>
+                    <p>• <strong>Good:</strong> Can't be hacked or corrupted</p>
+                    <p>• <strong>Bad:</strong> Uses massive electricity (Bitcoin = Argentina's entire consumption)</p>
+                    <p>• <strong>Ugly:</strong> Only 7 transactions/second (Visa does 65,000)</p>
                 </div>
                 
-                <h3>Real uses:</h3>
+                <h3>Real uses beyond Bitcoin:</h3>
                 <ul>
-                    <li>Cryptocurrency (Bitcoin, Ethereum)</li>
-                    <li>Supply chain tracking</li>
-                    <li>Copyright proof</li>
+                    <li>Tracking food from farm to store</li>
                     <li>Medical records</li>
+                    <li>Proving ownership</li>
+                    <li>Supply chains</li>
                 </ul>
                 
-                <h3>Limitations:</h3>
-                <ul>
-                    <li>Slow: Bitcoin handles 7 transactions/second (Visa: 65,000/second)</li>
-                    <li>Energy-hungry: Bitcoin mining uses Argentina's entire electricity consumption</li>
-                    <li>Storage waste: Every participant stores everything</li>
-                </ul>
-                
-                <p>Blockchain isn't magic—it's best for scenarios where <strong>trust is expensive</strong>.</p>
+                <p><strong>Bottom Line:</strong> Blockchain creates trust without middlemen. When you can't trust institutions, you can trust math.</p>
                 
                 <div class="visual-box">
                     <p>📔+📔+📔=🔒</p>
-                    <p>Everyone records, cheating becomes impossible</p>
+                    <p>Everyone records = no one can cheat</p>
                 </div>
             </div>
         </div>
@@ -509,49 +493,56 @@
             <h2 class="tech-title"><span class="emoji">🏠</span> IoT (Internet of Things)</h2>
             
             <div class="content">
-                <p>By 2025, there will be 75 billion connected devices. That's 10 for every human on Earth. Everything from your toothbrush to city streetlights is getting smart.</p>
-                
-                <h3>The Orchestra Analogy:</h3>
-                <div class="comparison">
-                    <p><strong>Without IoT:</strong> Every device plays alone – chaos</p>
-                    <p><strong>With IoT:</strong> A conductor (your phone/hub) coordinates everything – symphony</p>
-                </div>
+                <p>IoT means connecting everyday objects to the internet. Your thermostat, doorbell, even your toothbrush can now go online and talk to each other.</p>
                 
                 <h3>How It Works:</h3>
                 <ol>
-                    <li><strong>Sense:</strong> Temperature sensor detects room is cold</li>
-                    <li><strong>Send:</strong> Transmits data via WiFi</li>
-                    <li><strong>Process:</strong> Cloud/hub decides action needed</li>
+                    <li><strong>Sense:</strong> Thermometer measures temperature</li>
+                    <li><strong>Send:</strong> Transmits "it's 50°F" over WiFi</li>
+                    <li><strong>Decide:</strong> Smart hub thinks "too cold"</li>
                     <li><strong>Act:</strong> Heater turns on automatically</li>
                 </ol>
                 
-                <h3>Real Examples:</h3>
-                <p><strong>Home:</strong></p>
+                <p>Now multiply this by everything in your life. Your watch tracking steps, your car reporting maintenance needs, your fridge ordering milk.</p>
+                
+                <h3>Three Levels:</h3>
+                
+                <p><strong>Home IoT:</strong></p>
                 <ul>
-                    <li>Thermostat learns schedule, pre-heats before arrival</li>
+                    <li>Thermostat learns your schedule, heats before you wake</li>
                     <li>Doorbell recognizes faces, only alerts for strangers</li>
+                    <li>Lights turn on as you walk through rooms</li>
                 </ul>
                 
-                <p><strong>City:</strong></p>
+                <p><strong>City IoT:</strong></p>
                 <ul>
-                    <li>Parking spots report availability to apps</li>
-                    <li>Streetlights dim when empty (40% energy saved)</li>
+                    <li>Parking spots tell your app when they're free</li>
+                    <li>Streetlights dim when no one's around (40% energy saved)</li>
+                    <li>Trash cans alert when full</li>
                 </ul>
                 
-                <p><strong>Industry (The real money):</strong></p>
+                <p><strong>Industrial IoT (where the real money is):</strong></p>
                 <ul>
-                    <li>Jet engines report issues mid-flight for ground prep</li>
-                    <li>Factory machines predict their own maintenance</li>
+                    <li>Jet engines report problems mid-flight</li>
+                    <li>Factory machines predict their own breakdowns</li>
+                    <li>Farms water individual plants based on soil moisture</li>
                 </ul>
                 
-                <h3>The Dark Side:</h3>
+                <h3>The Scale:</h3>
                 <div class="comparison">
-                    <p>• Security: Your toaster could be hacked</p>
-                    <p>• Privacy: Everything tracks you</p>
-                    <p>• Dependency: What if internet goes down?</p>
+                    <p>• 2020: 10 billion IoT devices</p>
+                    <p>• 2025: 75 billion devices</p>
+                    <p>• That's 10 connected devices per person on Earth</p>
                 </div>
                 
-                <p><strong>Bottom Line:</strong> IoT makes dumb things smart by connecting them. It's not about gadgets – it's about efficiency at massive scale.</p>
+                <h3>The Catch:</h3>
+                <ul>
+                    <li>Every device can be hacked</li>
+                    <li>Your TV might be listening</li>
+                    <li>Privacy basically disappears</li>
+                </ul>
+                
+                <p><strong>Bottom Line:</strong> IoT makes dumb objects smart. Great for efficiency, terrible for privacy.</p>
                 
                 <div class="visual-box">
                     <p>🔌 + 📡 = 🧠</p>
@@ -565,46 +556,45 @@
             <h2 class="tech-title"><span class="emoji">💾</span> RAM (Random Access Memory)</h2>
             
             <div class="content">
-                <p>Wonder why your computer slows with 50 Chrome tabs? RAM is why. It's your computer's workspace – when it fills up, everything grinds to a halt.</p>
+                <p>Ever wonder why your computer slows down with too many browser tabs open? RAM is the answer.</p>
                 
                 <h3>The Desk Analogy:</h3>
                 <div class="comparison">
                     <p><strong>RAM = Your desk</strong></p>
-                    <p>• Active work RIGHT NOW</p>
-                    <p>• Fast access (just reach)</p>
+                    <p>• Everything you're working on right now</p>
+                    <p>• Quick to grab</p>
                     <p>• Limited space</p>
-                    <p>• Clears when done</p>
+                    <p>• Gets cleared when you're done</p>
                 </div>
                 <div class="comparison">
-                    <p><strong>Storage = Filing cabinet</strong></p>
+                    <p><strong>Storage (hard drive) = Filing cabinet</strong></p>
                     <p>• Everything you own</p>
-                    <p>• Slower access (walk over)</p>
+                    <p>• Takes time to find things</p>
                     <p>• Huge space</p>
-                    <p>• Permanent</p>
+                    <p>• Keeps everything permanently</p>
                 </div>
                 
-                <h3>Why RAM Matters:</h3>
-                <p>CPU processes at billions/second. Storage takes milliseconds to respond. That's like Usain Bolt waiting 3 hours between steps. RAM bridges this gap – keeps data nanoseconds away.</p>
+                <h3>Why Your Computer Needs RAM:</h3>
+                <p>Your processor works incredibly fast - billions of calculations per second. But pulling data from storage is slow - like walking to a filing cabinet every time you need a number. RAM keeps your active data right there, instantly accessible.</p>
                 
                 <h3>What Happens With Too Many Tabs:</h3>
                 <ol>
-                    <li>Open Chrome → Loads to RAM</li>
-                    <li>Open 20 tabs → Each uses RAM</li>
-                    <li>RAM full → Uses storage as fake RAM (1000x slower)</li>
-                    <li>Everything crawls → Close tabs!</li>
+                    <li>Each Chrome tab takes up RAM space</li>
+                    <li>RAM fills up</li>
+                    <li>Computer starts using storage as pretend RAM (super slow)</li>
+                    <li>Everything freezes</li>
+                    <li>Time to close some tabs!</li>
                 </ol>
                 
                 <h3>How Much You Need:</h3>
                 <div class="comparison">
-                    <p>• Basic (8GB): Web, documents</p>
-                    <p>• Standard (16GB): Gaming, multitasking</p>
-                    <p>• Pro (32GB): Video editing, 3D</p>
-                    <p>• Extreme (64GB+): Virtual machines, AI training</p>
+                    <p>• Basic (8GB): Web browsing, documents</p>
+                    <p>• Standard (16GB): Gaming, photo editing</p>
+                    <p>• Pro (32GB): Video editing, 3D work</p>
+                    <p>• Extreme (64GB+): Running multiple programs at once</p>
                 </div>
                 
-                <p><strong>Pro tip:</strong> Unused RAM is wasted RAM. Systems use free RAM to cache files, making everything faster.</p>
-                
-                <p><strong>Bottom Line:</strong> RAM is workspace, not storage. More RAM = more simultaneous tasks without slowing.</p>
+                <p><strong>Bottom Line:</strong> RAM is temporary workspace. More RAM = more things open at once without slowing down.</p>
                 
                 <div class="visual-box">
                     <p>📁 → 💾 → ⚡</p>
@@ -618,60 +608,53 @@
             <h2 class="tech-title"><span class="emoji">⚛️</span> Quantum Computing</h2>
             
             <div class="content">
-                <p>Quantum computers solve problems that would take classical computers longer than the universe has existed. They don't compute faster – they compute differently.</p>
+                <p>Regular computers solve problems one step at a time, even if they do it really fast. Quantum computers? They explore all possible solutions at once. It's not science fiction - IBM, Google, and others have working quantum computers right now.</p>
                 
                 <h3>The Maze Analogy:</h3>
                 <div class="comparison">
-                    <p><strong>Classical Computer:</strong> Tries one path at a time. Even at millions/second, huge mazes take forever.</p>
-                    <p><strong>Quantum Computer:</strong> Walks ALL paths simultaneously. Literally everywhere at once until observed.</p>
+                    <p><strong>Regular Computer:</strong> Tries one path, hits dead end, backs up, tries another. Even at millions of attempts per second, huge mazes take forever.</p>
+                    <p><strong>Quantum Computer:</strong> Walks every single path simultaneously. It's literally everywhere in the maze at once until you ask for the answer.</p>
                 </div>
                 
-                <h3>Bits vs Qubits:</h3>
-                <ul>
-                    <li><strong>Bit:</strong> Coin that's heads OR tails</li>
-                    <li><strong>Qubit:</strong> Spinning coin that's both until it lands</li>
-                </ul>
+                <h3>The Weird Science:</h3>
+                <p>Regular computers use bits - either 1 or 0, like a coin that's heads or tails.</p>
+                <p>Quantum computers use qubits - both 1 AND 0 at the same time, like a spinning coin that hasn't landed yet.</p>
+                
                 <div class="comparison">
-                    <p>• 10 bits = 10 pieces of info</p>
-                    <p>• 10 qubits = 1,024 states at once (2¹⁰)</p>
-                    <p>• 300 qubits = more states than atoms in universe</p>
+                    <p>• 10 regular bits = 10 pieces of information</p>
+                    <p>• 10 qubits = 1,024 possibilities at once</p>
+                    <p>• 300 qubits = more possibilities than atoms in the universe</p>
                 </div>
-                
-                <h3>Quantum Rules:</h3>
-                <ol>
-                    <li><strong>Superposition:</strong> Be in multiple states simultaneously</li>
-                    <li><strong>Entanglement:</strong> Particles instantly affect each other across any distance</li>
-                    <li><strong>Collapse:</strong> Observing forces a single state</li>
-                </ol>
                 
                 <h3>Perfect For:</h3>
                 <ul>
-                    <li>Drug discovery (molecular simulation)</li>
-                    <li>Breaking encryption (factor huge numbers)</li>
-                    <li>Weather modeling (chaos theory)</li>
-                    <li>Financial optimization (millions of variables)</li>
+                    <li>Drug discovery (simulating molecules)</li>
+                    <li>Breaking encryption</li>
+                    <li>Weather prediction</li>
+                    <li>Financial modeling</li>
                 </ul>
                 
                 <h3>Useless For:</h3>
                 <ul>
-                    <li>Browsing web</li>
-                    <li>Playing games</li>
-                    <li>Normal computing</li>
+                    <li>Email</li>
+                    <li>Gaming</li>
+                    <li>Watching Netflix</li>
+                    <li>Basically everything you do daily</li>
                 </ul>
                 
-                <h3>Current Reality:</h3>
+                <h3>Why You Don't Have One:</h3>
                 <div class="comparison">
-                    <p>• Temperature: -273°C (absolute zero)</p>
-                    <p>• Cost: $15 million each</p>
-                    <p>• Size: Entire room</p>
-                    <p>• Error rate: 1 in 1,000 (vs 1 in 10¹⁷ for regular computers)</p>
+                    <p>• Must be kept near absolute zero (-460°F)</p>
+                    <p>• Costs $15 million</p>
+                    <p>• Fills an entire room</p>
+                    <p>• Makes errors constantly</p>
                 </div>
                 
-                <p><strong>Bottom Line:</strong> Quantum solves impossible problems, doesn't replace regular computers. Not faster, fundamentally different.</p>
+                <p><strong>Bottom Line:</strong> Quantum computers solve "impossible" problems but can't run Windows. They're not better computers - they're different computers.</p>
                 
                 <div class="visual-box">
-                    <p>0️⃣|1️⃣ → 0️⃣&1️⃣</p>
-                    <p>Either/or becomes both/and</p>
+                    <p>0️⃣ or 1️⃣ → 0️⃣ and 1️⃣</p>
+                    <p>Not faster, fundamentally different</p>
                 </div>
             </div>
         </div>
@@ -728,52 +711,50 @@
             <h2 class="tech-title"><span class="emoji">🔄</span> DevOps</h2>
             
             <div class="content">
-                <p>Before DevOps, releasing software was like a relay race where runners hated each other. Developers (who write code) threw it over the wall to operations (who run the computers), who threw it back when it broke. DevOps made them the same team.</p>
+                <p>Before DevOps, releasing software was like a relay race where the runners hated each other. Developers wrote code and tossed it to IT operations. When things broke, they blamed each other. DevOps merged them into one team.</p>
                 
                 <h3>The Restaurant Analogy:</h3>
                 <div class="comparison">
-                    <p><strong>Old Way:</strong> Chefs (developers) cook food and slide it through window. Waiters (operations) serve it. When customers complain, they blame each other.</p>
+                    <p><strong>Old Way:</strong> Chefs cook food, slide it through a window. Waiters serve it. Customer complains? They point fingers at each other.</p>
                     <p><strong>DevOps:</strong> Chef-waiters who cook AND serve. They see customer reactions immediately and fix problems fast.</p>
                 </div>
                 
                 <h3>What Actually Changes:</h3>
                 <ul>
-                    <li><strong>Speed:</strong> Deploy updates 100x per day vs once per month</li>
-                    <li><strong>Automation:</strong> Code automatically tests itself and deploys if it passes</li>
-                    <li><strong>Responsibility:</strong> You build it, you run it, you fix it at 3 AM</li>
+                    <li><strong>Speed:</strong> Deploy code 100 times a day instead of once a month</li>
+                    <li><strong>Automation:</strong> Code tests and deploys itself automatically</li>
+                    <li><strong>Ownership:</strong> You build it, you run it, you fix it</li>
                 </ul>
                 
-                <h3>The DevOps Pipeline:</h3>
+                <h3>The Pipeline:</h3>
                 <ol>
-                    <li><strong>Code:</strong> Developer writes feature</li>
-                    <li><strong>Build:</strong> Automatically compile and package</li>
-                    <li><strong>Test:</strong> Run 1000s of automated tests</li>
-                    <li><strong>Deploy:</strong> Push to computers automatically</li>
-                    <li><strong>Monitor:</strong> Watch for problems in real-time</li>
-                    <li><strong>Repeat:</strong> Do this 50+ times per day</li>
+                    <li>Write code</li>
+                    <li>Automatic testing (thousands of checks)</li>
+                    <li>Automatic deployment if tests pass</li>
+                    <li>Monitor everything in real-time</li>
+                    <li>Repeat 50+ times daily</li>
                 </ol>
                 
-                <h3>Tools Everyone Uses:</h3>
+                <h3>Common Tools:</h3>
                 <div class="comparison">
-                    <p>• <strong>Git:</strong> Track code changes (like Google Docs for code)</p>
-                    <p>• <strong>Jenkins/GitHub Actions:</strong> Automation robots</p>
-                    <p>• <strong>Docker:</strong> Package apps in containers (like shipping containers for code)</p>
-                    <p>• <strong>Kubernetes:</strong> Manage thousands of containers</p>
-                    <p>• <strong>Terraform:</strong> Define infrastructure as code</p>
+                    <p>• <strong>Git:</strong> Tracks all code changes</p>
+                    <p>• <strong>Docker:</strong> Packages apps so they run anywhere</p>
+                    <p>• <strong>Jenkins:</strong> Automation that does the repetitive work</p>
+                    <p>• <strong>Kubernetes:</strong> Manages apps across many computers</p>
                 </div>
                 
                 <h3>Real Impact:</h3>
                 <ul>
-                    <li>Amazon: Deploys code every 11.6 seconds</li>
-                    <li>Netflix: 4000+ deployments per day</li>
+                    <li>Amazon: Ships new code every 11.6 seconds</li>
+                    <li>Netflix: 4,000+ updates daily</li>
                     <li>Facebook: Updates while 3 billion people use it</li>
                 </ul>
                 
-                <p><strong>Bottom Line:</strong> DevOps is developers and operations working as one team, using automation to ship code faster without breaking things.</p>
+                <p><strong>Bottom Line:</strong> DevOps means the people who write code also run it. Automation handles the boring stuff. Ship fast, fix fast.</p>
                 
                 <div class="visual-box">
                     <p>Dev + Ops = 🚀</p>
-                    <p>Ship fast, don't break things</p>
+                    <p>One team, continuous delivery</p>
                 </div>
             </div>
         </div>
